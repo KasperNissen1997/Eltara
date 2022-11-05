@@ -1,13 +1,5 @@
 using UnityEngine;
 
-public class PlayerController : CharacterController {
-    public void Update () {
-
-    }
-
-    public override void Kill () {
-        base.Kill();
-
-        Debug.Log("Game Over!");
-    }
+public class PlayerController : MonoBehaviour {
+    // handle all player movement
 }
