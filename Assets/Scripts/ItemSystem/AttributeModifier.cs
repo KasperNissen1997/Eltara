@@ -1,4 +1,7 @@
-﻿public class AttributeModifier
+﻿using System;
+
+[Serializable]
+public class AttributeModifier
 {
     public AttributeType attribute = AttributeType.health;
     public ModifierType modifier = ModifierType.flat;

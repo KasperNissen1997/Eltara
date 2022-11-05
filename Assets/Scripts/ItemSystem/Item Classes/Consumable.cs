@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New consumable", menuName = "Eltara Custom Objects/ScriptableObjects/Items/Consumable", order = 1)]
+[CreateAssetMenu(fileName = "New consumable", menuName = "Eltara Custom Objects/ScriptableObjects/Items/Consumable")]
 public class Consumable : Item, IConsumable
 {
     [Header("Consumable settings")]

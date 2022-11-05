@@ -1,4 +1,4 @@
-﻿public abstract class Equipment : IEquipable
+﻿public abstract class Equipment : Item, IEquipable
 {
     public EquipmentSlot slot = EquipmentSlot.mainHand;
 
